@@ -2,7 +2,7 @@ export const brand = "amg-tech";
 
 export const dev = {
   name: "Muhammed Adamu Girei",
-  role: "Web Developer",
+  role: "Software Developer",
   location: "Nigeria",
   skills: [
     "JavaScript",
@@ -17,9 +17,9 @@ export const dev = {
 
 export const about = {
   name: "Muhammed Adamu Girei",
-  role: "Frontend Developer",
-  focus: "Responsive Web Development",
-  currentlyLearning: ["Node.js", "Next.js", "UI/UX"],
+  role: "Software Developer",
+  focus: "Responsive Software Development",
+  techStack: ["Node.js", "Next.js", "UI/UX"],
   goal: "Build modern applications people enjoy using.",
 };
 
@@ -33,7 +33,7 @@ export const chips = [
 
 export const aboutCards = [
   {
-    title: "Web Development",
+    title: "Website & Mobile App Development",
     color: "text-blue-400",
     from: "left" as const,
     text: "I build responsive websites and interfaces with a focus on clean structure, useful interactions and a consistent experience across devices.",
@@ -65,19 +65,19 @@ export const projects = [
   {
     file: "misa-ng.tsx",
     title: "MISA NG LTD",
-    image: "/images/misa-ng.jpg",
+    image: "/images/misa.jpg",
     text: "A real-estate platform designed around property discovery, market information, developer partnerships and investment opportunities.",
     tech: ["Next.js", "TypeScript", "Tailwind"],
     demo: "https://misa-ng.vercel.app",
     github: "https://github.com/mohgirei10/misa-ng",
   },
   {
-    file: "opay-demo.tsx",
-    title: "OPay App Demo",
-    image: "/images/opay-demo.jpg",
-    text: "A mobile banking UI concept exploring transaction flows, transfers, cards, savings and rewards through a familiar fintech interface.",
-    tech: ["React Native", "Expo", "Fintech"],
-    demo: "#",
+    file: "4brothers.tsx",
+    title: "4Brothers ",
+    image: "/images/4brothers.jpg",
+    text: "A  Full-Stack logistics website exploring transaction flows, transfers, cards, savings and rewards through a familiar fintech interface.",
+    tech: ["Next.js", "Supabase PostgreSQL", "Tailwind"],
+    demo: "https://4brothers.site",
     github: "https://github.com/mohgirei10",
   },
 ];

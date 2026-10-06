@@ -12,7 +12,7 @@ function SkillIcon({ children, className = "" }: SkillIconProps) {
   return (
     <div
       aria-hidden="true"
-      className={`flex size-12 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] font-mono text-sm font-bold ${className}`}
+      className={`flex size-12 items-center justify-center rounded-xl border border-white/10 bg-white/4 font-mono text-sm font-bold ${className}`}
     >
       {children}
     </div>
@@ -74,7 +74,7 @@ export default function Skills() {
         <Reveal>
           <CodeWindow file="Explorer">
             <p className="mb-6 font-mono font-bold text-blue-400">
-              Web development
+              Software development
             </p>
 
             <SkillBars />

@@ -36,9 +36,8 @@ export default function Terminal() {
 </p>
 
 <p className="pt-3 text-slate-500">
-  Type <span className="text-yellow-400">help</span> to explore.
+  type <span className="text-yellow-400">help</span> to explore commands.
 </p>
-          <p className="pt-3 text-zinc-400">Type <span className="text-yellow-400">help</span> to see available commands.</p>
           {log.map((l, i) => <p key={i} className="whitespace-pre-wrap text-zinc-300">{l}</p>)}
           <form onSubmit={run} className="flex flex-wrap items-center gap-3 pt-6">
             <label htmlFor="term" className="text-blue-400">PS C:\Users\Muhammed&gt;</label>

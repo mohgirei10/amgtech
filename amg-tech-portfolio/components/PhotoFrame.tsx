@@ -25,7 +25,7 @@ export default function PhotoFrame() {
           )}
 
           <Image
-            src="/profile.jpg"
+            src="/images/profile.jpg"
             alt="AMG Tech"
             fill
             priority
